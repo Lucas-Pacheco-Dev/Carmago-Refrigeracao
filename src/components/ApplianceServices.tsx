@@ -36,7 +36,7 @@ const ApplianceServices = () => {
       icon: Flame,
       title: "Fornos Elétricos",
       description: "Conserto de fornos elétricos de embutir e de bancada.",
-      items: ["Embutir", "Bancada", "Micro-ondas", "Air Fryer"],
+      items: ["Embutir", "Bancada", "Micro-ondas"],
     },
   ];
 
