@@ -51,7 +51,11 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="xl" asChild>
+              <Button variant="hero" size="xl" asChild onClick={() => {
+                window.gtag?.("event", "conversion", {
+                  send_to: "AW-17876383113/ABCdEfGhIjk",
+                });
+              }}>
                 <a
                   href="https://wa.me/5515997337190"
                   target="_blank"

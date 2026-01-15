@@ -52,7 +52,11 @@ const Header = () => {
               <Phone className="w-4 h-4" />
               (15) 99733-7190
             </a>
-            <Button variant="accent" size="lg" asChild>
+            <Button variant="accent" size="lg" asChild onClick={() => {
+                window.gtag?.("event", "conversion", {
+                  send_to: "AW-17876383113/ABCdEfGhIjk",
+                });
+              }}>
               <a href="https://wa.me/5515997337190" target="_blank" rel="noopener noreferrer">
                 WhatsApp
               </a>

@@ -60,6 +60,9 @@ const Services = () => {
   const whatsappNumber = "5515997337190";
 
   const handleWhatsApp = (serviceName: string) => {
+    window.gtag?.("event", "conversion", {
+      send_to: "AW-17876383113/ABCdEfGhIjk",
+    });
     const message = encodeURIComponent(
       `Olá! Gostaria de um orçamento para conserto de ${serviceName}.`
     );
