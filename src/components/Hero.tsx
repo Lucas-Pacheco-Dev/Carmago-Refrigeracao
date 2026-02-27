@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Phone, Clock, Shield, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-technician.jpg";
+import heroImage from "@/assets/freezer.jpeg";
 
 const Hero = () => {
   const stats = [
